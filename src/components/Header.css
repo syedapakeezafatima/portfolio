@@ -1,0 +1,38 @@
+.header {
+  background-color: #d2f4e0; /* Light gray background */
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Keeps the header above other content */
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #333; /* Dark text for readability */
+  margin: 0;
+}
+
+.header-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #131414; /* Blue links */
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
