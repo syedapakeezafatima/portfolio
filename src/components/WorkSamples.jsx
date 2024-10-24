@@ -7,7 +7,7 @@ const WorkSamples = () => {
       id: 1,
       title: 'Regresation page',
       description: 'Project created in HTML,CSS .',
-      imageUrl: 'public/images/reg.webp'
+      imageUrl: 'public/images/pro.png'
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const WorkSamples = () => {
       id: 3,
       title: 'Food APP',
       description: 'App created in Andriod Studio.',
-      imageUrl: 'public/images/Food.webp'
+      imageUrl: 'public/images/food.webp'
     },
     {
       id: 4,
